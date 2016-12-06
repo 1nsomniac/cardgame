@@ -2,7 +2,8 @@ angular.module("app").service("service", function($http) {
 
 this.getQuote = function() {
   return $http.get("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1").then(function(result){
-    return result.data[0].content
+    console.log(result)
+    return result.data
   })
 }
 
