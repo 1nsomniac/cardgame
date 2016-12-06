@@ -7,7 +7,7 @@ this.getQuote = function() {
 }
 
 this.getAvatar = function(first20) {
-  console.log('fired')
+  // console.log('fired')
   return $http.get("https://api.adorable.io/avatars/245/"+first20+".png").then(function(result){
     console.log(result)
     return result

@@ -1,11 +1,18 @@
 .img {
-  border-radius: 18%; }
+  border-radius: 18%;
+  display: flex;
+  align-items: center;
+}
+
 
 body {
   background-color: aquamarine;
   font-family: 'Permanent Marker', cursive;
   font-size: 22px;
-  float: left;
-  word-wrap: break-word; }
+  display: flex;
+  align-items: center;
+  /*float: left;*/
+  /*word-wrap: break-word;*/
+  /*margin: auto; }*/
 
 /*# sourceMappingURL=maps/styles.css.map */

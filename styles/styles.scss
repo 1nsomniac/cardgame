@@ -1,5 +1,7 @@
+$radius: 18%;
+
 .img {
-  border-radius: 18%
+  border-radius: $radius;
 }
 body {
   background-color: aquamarine;
@@ -7,4 +9,5 @@ body {
   font-size: 22px;
   float: left;
   word-wrap: break-word;
+  margin:auto
 }
